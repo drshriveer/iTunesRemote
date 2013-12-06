@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Mon Jan 25 12:00:49 PST 2010
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=iTunesRemote.jar
+manifest.mergeall=true
+manifest.mainclass=client.RemoteControl
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=<po|iTunesRemote>~server/
+includes=
