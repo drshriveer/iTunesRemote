@@ -4,8 +4,7 @@ iTunesRemote
 This is a simple iTunesRemote control (for use between computers) using Java and Java's RMI. It requires the use of a RMI server (included), and client computer. It was written several years ago for personal use -- I've finally gotten around to open sourcing some of my old projects
 
 ##### Server does NOT support Windows. Only OSX.
-###### Client supports any OS.
-
+##### Client supports any OS.
 
 Usage
 -------------
@@ -28,6 +27,12 @@ To compile and run the program navigate to the `src` directory in a terminal and
 
 ##### Alternatively
   Alternatively, use fatJAR or another JARing program and create `.jar` files for the client and server independently so that you can run them with a double click! 
+
+Questions & Comments
+-------------
+If you have any questions or comments about the code don’t hesitate to contact me at [gavin.shriver@gmail.com](mailto:gavin.shriver@gmail.com) I'll do my best to help in any way I can!.
+
+
 
 License
 -------------
