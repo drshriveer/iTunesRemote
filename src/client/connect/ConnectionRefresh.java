@@ -21,7 +21,8 @@ public class ConnectionRefresh implements Runnable
 	
 	public void run()
 	{
-		while(!rec.connect())
+        boolean connected = false;
+		while(!connected)
 		{
 			System.out.println("connection failed, retrying in " +PrefsDynamics.connectionUpdateTime + "ms");
 			try
@@ -32,6 +33,12 @@ public class ConnectionRefresh implements Runnable
 			{
 				e.printStackTrace();
 			}
+            
+            try{
+                connected = rec.connect();
+            }catch (Exception e){
+                e.printStackTrace();
+            }
 		}//end while
 	}
 }
